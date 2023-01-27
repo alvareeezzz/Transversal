@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+* {
+    margin: 0;
+    background-color: #181717;
+    height: auto;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 35%;
+    height: 35%;
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #ffc000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    border: none;
+    font-family: 'Unbounded', cursive;
+}
+
+.button a {
+    background-color: #ffc000;
+    color: rgb(49, 49, 49);
+}
+
+.button:hover {
+    background-color: #ffc000;
+    color: #000;
+    box-shadow: 0 0 5px #ffc000, 0 0 20px #ffc000, 0 0 60px #ffc000, 0 0 150px #ffc000;
+}
+
+.decoration {
+    text-decoration: none;
+}
